@@ -1,0 +1,6 @@
+*.exe
+*.class
+*.o
+*.out
+node_modules/
+__pycache__/
