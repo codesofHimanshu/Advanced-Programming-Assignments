@@ -1,51 +1,10 @@
-# 🚀 Advanced Programming Assignments
+# Assignment X
 
-This repository contains my coursework and practice programs from my **Advanced Programming** course.
+## Question
 
-It includes implementations in multiple languages covering core programming concepts, problem-solving, and basic development projects.
+Create a Python program using a list and dictionary to store products with name and stock quantity.
+Display all products whose stock is less than 10.
 
----
+## Files
 
-## 📂 Contents
-
-### 🧠 Core Programs
-- Time Complexity Analysis (O(1), O(n), O(n²))
-- ArrayList Search (Java)
-- Basic C Programming Assignments
-
-### 💻 Projects
-- 📝 **React Todo App**
-  - Add and delete tasks
-  - Built using React Hooks (`useState`)
-  - Located in `todo-app/`
-
-- 📊 **Course Dashboard (React)**
-  - Simple UI-based project
-
----
-
-## 🛠️ Languages & Technologies
-
-- C
-- C++
-- Java
-- Python
-- JavaScript (React)
-
----
-
-## 📌 Purpose
-
-- Practice programming concepts
-- Understand time complexity
-- Learn basic frontend development (React)
-- Build consistency in coding
-
----
-
-## ⚡ How to Run
-
-### ▶️ C Programs
-```bash
-gcc program.c -o program
-./program
+- Assignment_4.py
