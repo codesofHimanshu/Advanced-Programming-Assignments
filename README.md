@@ -1,51 +1,27 @@
-# 🚀 Advanced Programming Assignments
+# Assignment 10
 
-This repository contains my coursework and practice programs from my **Advanced Programming** course.
+## Question
 
-It includes implementations in multiple languages covering core programming concepts, problem-solving, and basic development projects.
+Question 10: 
 
----
+Design a student system in Python with:
 
-## 📂 Contents
+Address class (street, city, zipCode)
+Student class with name, age, Address, and course list
+Store age as a protected attribute and control it using @property
+Methods: add_course() and display()
 
-### 🧠 Core Programs
-- Time Complexity Analysis (O(1), O(n), O(n²))
-- ArrayList Search (Java)
-- Basic C Programming Assignments
+Extend it with:
 
-### 💻 Projects
-- 📝 **React Todo App**
-  - Add and delete tasks
-  - Built using React Hooks (`useState`)
-  - Located in `todo-app/`
+ScholarshipStudent (add scholarshipAmount and override display())
 
-- 📊 **Course Dashboard (React)**
-  - Simple UI-based project
+Your implementation should clearly show:
 
----
+Composition (Student HAS-A Address)
+Proper data validation using @property (age must be valid)
+Inheritance and overriding (use super() in display)
+Understanding of mutable behavior (course list updates persist)
 
-## 🛠️ Languages & Technologies
+## Files
 
-- C
-- C++
-- Java
-- Python
-- JavaScript (React)
-
----
-
-## 📌 Purpose
-
-- Practice programming concepts
-- Understand time complexity
-- Learn basic frontend development (React)
-- Build consistency in coding
-
----
-
-## ⚡ How to Run
-
-### ▶️ C Programs
-```bash
-gcc program.c -o program
-./program
+- Assignment_10.py
