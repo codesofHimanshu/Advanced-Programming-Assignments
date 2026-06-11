@@ -1,51 +1,24 @@
-# 🚀 Advanced Programming Assignments
+# Assignment 14
 
-This repository contains my coursework and practice programs from my **Advanced Programming** course.
+## Question
+Assignment 14: Create a scenario where objects are "dead" but still have a reference count higher than zero, then force the Garbage Collector to clean them up. Do in python only. 
 
-It includes implementations in multiple languages covering core programming concepts, problem-solving, and basic development projects.
+Implementation Steps:
 
----
+Create a Node class with a name and a link attribute.
 
-## 📂 Contents
+Create a Cycle: Instantiate Node A and Node B.
 
-### 🧠 Core Programs
-- Time Complexity Analysis (O(1), O(n), O(n²))
-- ArrayList Search (Java)
-- Basic C Programming Assignments
+Set A.link = B and B.link = A.
 
-### 💻 Projects
-- 📝 **React Todo App**
-  - Add and delete tasks
-  - Built using React Hooks (`useState`)
-  - Located in `todo-app/`
+Check References: Use sys.getrefcount() to show that both objects have multiple references.
 
-- 📊 **Course Dashboard (React)**
-  - Simple UI-based project
+The "Deletion": Use del A and del B.
 
----
+The Investigation: Use the gc module to show that these objects still exist in memory because of the cycle, even though you can no longer access them from your code.
 
-## 🛠️ Languages & Technologies
+The Cleanup: Call gc.collect() and print the number of "unreachable" objects collected.
 
-- C
-- C++
-- Java
-- Python
-- JavaScript (React)
+## Files
 
----
-
-## 📌 Purpose
-
-- Practice programming concepts
-- Understand time complexity
-- Learn basic frontend development (React)
-- Build consistency in coding
-
----
-
-## ⚡ How to Run
-
-### ▶️ C Programs
-```bash
-gcc program.c -o program
-./program
+- Assignment_14.py
