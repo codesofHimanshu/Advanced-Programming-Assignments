@@ -1,51 +1,28 @@
-# 🚀 Advanced Programming Assignments
+# Assignment X
 
-This repository contains my coursework and practice programs from my **Advanced Programming** course.
+## Question
+Question 9: 
 
-It includes implementations in multiple languages covering core programming concepts, problem-solving, and basic development projects.
+Design a banking system in Java with:
 
----
+A base class Account containing private fields: accountNumber, ownerName, balance
+Provide getters/setters and at least two constructors (use constructor chaining)
+Implement deposit() and withdraw() with proper validation
+Add a display() method
 
-## 📂 Contents
+Extend it with:
 
-### 🧠 Core Programs
-- Time Complexity Analysis (O(1), O(n), O(n²))
-- ArrayList Search (Java)
-- Basic C Programming Assignments
+SavingsAccount (add interestRate, override display() and show interest)
+CurrentAccount (add overdraftLimit, restrict withdrawals accordingly)
 
-### 💻 Projects
-- 📝 **React Todo App**
-  - Add and delete tasks
-  - Built using React Hooks (`useState`)
-  - Located in `todo-app/`
+Your implementation should clearly show:
 
-- 📊 **Course Dashboard (React)**
-  - Simple UI-based project
+Proper encapsulation (no direct field access)
+Use of constructor overloading and chaining (this(...))
+Inheritance and method overriding (use @Override and super)
+Polymorphism by storing objects in an Account reference list and calling display()
+Basic validation/debugging (e.g., assert or exception for invalid operations)
 
----
+## Files
 
-## 🛠️ Languages & Technologies
-
-- C
-- C++
-- Java
-- Python
-- JavaScript (React)
-
----
-
-## 📌 Purpose
-
-- Practice programming concepts
-- Understand time complexity
-- Learn basic frontend development (React)
-- Build consistency in coding
-
----
-
-## ⚡ How to Run
-
-### ▶️ C Programs
-```bash
-gcc program.c -o program
-./program
+- Banking_system.java
