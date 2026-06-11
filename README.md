@@ -1,51 +1,27 @@
-# 🚀 Advanced Programming Assignments
+# Assignment 11
 
-This repository contains my coursework and practice programs from my **Advanced Programming** course.
+## Question
 
-It includes implementations in multiple languages covering core programming concepts, problem-solving, and basic development projects.
+Question 11: 
 
----
+Design a library system in Java or Python with:
 
-## 📂 Contents
+A base/abstract class LibraryItem (common fields like title, year)
+An abstract/common method displayInfo()
 
-### 🧠 Core Programs
-- Time Complexity Analysis (O(1), O(n), O(n²))
-- ArrayList Search (Java)
-- Basic C Programming Assignments
+Create subclasses such as:
 
-### 💻 Projects
-- 📝 **React Todo App**
-  - Add and delete tasks
-  - Built using React Hooks (`useState`)
-  - Located in `todo-app/`
+Book (add author)
+DVD (add duration/genre)
 
-- 📊 **Course Dashboard (React)**
-  - Simple UI-based project
+Your implementation should clearly show:
 
----
+Use of abstraction (common structure in base class)
+Method overriding in subclasses
+Polymorphism using a collection of LibraryItem objects
+One additional feature:
+constructor overloading / default arguments OR class/static counter
 
-## 🛠️ Languages & Technologies
+## Files
 
-- C
-- C++
-- Java
-- Python
-- JavaScript (React)
-
----
-
-## 📌 Purpose
-
-- Practice programming concepts
-- Understand time complexity
-- Learn basic frontend development (React)
-- Build consistency in coding
-
----
-
-## ⚡ How to Run
-
-### ▶️ C Programs
-```bash
-gcc program.c -o program
-./program
+- Assignment_11.py
