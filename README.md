@@ -1,51 +1,8 @@
-# 🚀 Advanced Programming Assignments
+# Assignment 15
 
-This repository contains my coursework and practice programs from my **Advanced Programming** course.
+## Question
 
-It includes implementations in multiple languages covering core programming concepts, problem-solving, and basic development projects.
+Assignment 15: Write a multithreaded C program using POSIX threads (pthread) where multiple threads increment a shared global counter variable many times. First implement the program without any synchronization and observe the incorrect output caused by a race condition. Then modify the program using a mutex (pthread_mutex_t) to protect the critical section and produce the correct final counter value. Your program must demonstrate thread creation using pthread_create(), synchronization using pthread_mutex_lock() and pthread_mutex_unlock(), and thread completion using pthread_join(). Also explain briefly why the race condition occurs and how the mutex solves the problem.
+## File
 
----
-
-## 📂 Contents
-
-### 🧠 Core Programs
-- Time Complexity Analysis (O(1), O(n), O(n²))
-- ArrayList Search (Java)
-- Basic C Programming Assignments
-
-### 💻 Projects
-- 📝 **React Todo App**
-  - Add and delete tasks
-  - Built using React Hooks (`useState`)
-  - Located in `todo-app/`
-
-- 📊 **Course Dashboard (React)**
-  - Simple UI-based project
-
----
-
-## 🛠️ Languages & Technologies
-
-- C
-- C++
-- Java
-- Python
-- JavaScript (React)
-
----
-
-## 📌 Purpose
-
-- Practice programming concepts
-- Understand time complexity
-- Learn basic frontend development (React)
-- Build consistency in coding
-
----
-
-## ⚡ How to Run
-
-### ▶️ C Programs
-```bash
-gcc program.c -o program
-./program
+- Assignment_15.c
