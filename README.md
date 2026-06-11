@@ -1,51 +1,33 @@
-# 🚀 Advanced Programming Assignments
+# Assignment 6
 
-This repository contains my coursework and practice programs from my **Advanced Programming** course.
+## Question
 
-It includes implementations in multiple languages covering core programming concepts, problem-solving, and basic development projects.
+Assignment 6: 
+Develop a student performance analyzer in Java. You are given a list of students of your batch. Each student has:
+id (int) //don't include CSB string
+name (String)
+courses (List<String>)
+scores (Map<String, Integer>) where key = course, value = marks
 
----
+Do:
+1. Store students using appropriate collections.
+2. Implement the following methods:
+List<Student> getTopNStudents(List<Student> students, int n);
+Map<String, Double> getAverageScorePerCourse(List<Student> students);
+Set<String> getAllUniqueCourses(List<Student> students);
 
-## 📂 Contents
+Must use:
 
-### 🧠 Core Programs
-- Time Complexity Analysis (O(1), O(n), O(n²))
-- ArrayList Search (Java)
-- Basic C Programming Assignments
+1. Use ArrayList, HashMap, and HashSet
+2. Use Streams for aggregation and filtering
+3. Sort students by average score (descending)
+4. Use Comparator
+5. Handle missing course scores using getOrDefault
+6. Ensure type safety using generics
 
-### 💻 Projects
-- 📝 **React Todo App**
-  - Add and delete tasks
-  - Built using React Hooks (`useState`)
-  - Located in `todo-app/`
+Perform complexity analysis:
+1. What is the time complexity of computing course averages?
+2. What is the complexity of sorting top N students?
+## Files
 
-- 📊 **Course Dashboard (React)**
-  - Simple UI-based project
-
----
-
-## 🛠️ Languages & Technologies
-
-- C
-- C++
-- Java
-- Python
-- JavaScript (React)
-
----
-
-## 📌 Purpose
-
-- Practice programming concepts
-- Understand time complexity
-- Learn basic frontend development (React)
-- Build consistency in coding
-
----
-
-## ⚡ How to Run
-
-### ▶️ C Programs
-```bash
-gcc program.c -o program
-./program
+- Main.java
