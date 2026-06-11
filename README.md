@@ -1,51 +1,35 @@
-# 🚀 Advanced Programming Assignments
+# Assignment 5
 
-This repository contains my coursework and practice programs from my **Advanced Programming** course.
+## Project
 
-It includes implementations in multiple languages covering core programming concepts, problem-solving, and basic development projects.
+Todo App
 
----
+## Description
 
-## 📂 Contents
+A simple React application that allows users to manage daily tasks.
 
-### 🧠 Core Programs
-- Time Complexity Analysis (O(1), O(n), O(n²))
-- ArrayList Search (Java)
-- Basic C Programming Assignments
+Users can:
+- Add tasks
+- Mark tasks as completed
+- Delete tasks
+- View task list dynamically
 
-### 💻 Projects
-- 📝 **React Todo App**
-  - Add and delete tasks
-  - Built using React Hooks (`useState`)
-  - Located in `todo-app/`
+The project demonstrates React fundamentals including component-based development, state management, event handling, and rendering lists.
 
-- 📊 **Course Dashboard (React)**
-  - Simple UI-based project
+## Technologies Used
 
----
+- React
+- JavaScript
+- HTML
+- CSS
 
-## 🛠️ Languages & Technologies
+## Features
 
-- C
-- C++
-- Java
-- Python
-- JavaScript (React)
+- Add new todo items
+- Delete todo items
+- Mark tasks as completed
+- Dynamic UI updates using React state
 
----
+## Files
 
-## 📌 Purpose
-
-- Practice programming concepts
-- Understand time complexity
-- Learn basic frontend development (React)
-- Build consistency in coding
-
----
-
-## ⚡ How to Run
-
-### ▶️ C Programs
-```bash
-gcc program.c -o program
-./program
+- todo-app/
